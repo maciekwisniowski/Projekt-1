@@ -1,0 +1,103 @@
+body {
+background-image: url("aa.jpg");
+background-repeat: no-repeat;
+background-size: 1920px 1080px;
+
+}
+#logo  {
+font-size: 150px;
+color: #D0F8FF;
+text-align: center;
+text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+           0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+           0 0 40px #A5F1FF;
+letter-spacing: 1.5px;
+animation-name: example2;
+animation-duration: 15s;
+animation-fill-mode: forward;
+animation:example2 5s steps(50) infinite;
+
+}
+@keyframes example2 {
+    from {opacity:0.4; }
+    to {opacity:1;visibility: visible; }
+	10% { text-shadow: 0 0 5px #ced9d, 0 0 10px #4ced9d,
+           0 0 20px #4ced9d, 0 0 30px #4ced9d,
+           0 0 40px #4ced9d; } 
+  40%% { text-shadow: 0 0 5px #54c73a, 0 0 10px #54c73a,
+           0 0 20px #54c73a, 0 0 30px #54c73a,
+           0 0 40px #54c73a; } 
+  60%% { text-shadow: 0 0 5px #124f05, 0 0 10px #124f05,
+           0 0 20px #124f05, 0 0 30px #124f05,
+           0 0 40px #124f05;} 
+  75% {text-shadow: 0 0 5px #081f03, 0 0 10px #081f03,
+           0 0 20px #081f03, 0 0 30px #081f03,
+           0 0 40px #081f03;  } 
+  100% {text-shadow:0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+           0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+           0 0 40px #A5F1FF;
+  }
+ 
+}
+
+li { display: inline;
+margin: 90px;
+font-size: 20px;
+
+}
+a:visited { text-shadow:0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+           0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+           0 0 40px #A5F1FF; text-decoration: none;}
+a:link { text-shadow:0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+           0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+           0 0 40px #A5F1FF; text-decoration: none;}
+
+	a:hover {
+         text-shadow: 0 0 5px #4ced9d, 0 0 10px #4ced9d,
+           0 0 20px #4ced9d, 0 0 30px #4ced9d,
+           0 0 40px #4ced9d;		
+		 font-size: 21px;
+		 
+		 
+	}
+	.anim {
+		width:1200px;
+		height:800px;
+		position: relative; left:600px;
+		 animation-name:animacja;
+		animation-duration:10s;
+		animation-fill-mode:forward;
+		
+		
+	}
+	.zdjecie {
+  filter: contrast(1.8) brightness(1.5) grayscale(1) alpha(opacity=60);
+  opacity: 0.7;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+ width:574px;
+ height:377px;
+
+
+
+}
+
+@keyframes animacja {
+	from {opacity:0; }
+    to {opacity:1;visibility: visible;}
+	
+}
+
+
+
+figure:before {
+  z-index: 3;
+  mix-blend-mode: overlay;
+  box-shadow: 0 0 200px black inset;
+}
+
+	
+
+
